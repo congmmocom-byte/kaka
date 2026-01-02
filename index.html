@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0f19" />
+  <title>Dịch vụ Mạng Xã Hội</title>
+  <meta name="description" content="Landing page dịch vụ mạng xã hội: Facebook, TikTok, YouTube, Zalo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#">
+        <span class="brand__logo" aria-hidden="true">⬤</span>
+        <span class="brand__name">SocialBoost</span>
+      </a>
+
+      <nav class="nav" aria-label="Chính">
+        <a class="nav__link" href="#dichvu">Dịch vụ</a>
+        <a class="nav__link" href="#banggia">Bảng giá</a>
+        <a class="nav__link" href="#faq">FAQ</a>
+        <button class="btn btn--ghost" id="openContactTop" type="button">Liên hệ</button>
+      </nav>
+
+      <button class="iconbtn" id="openMobileNav" type="button" aria-label="Mở menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="badge">Facebook • TikTok • YouTube • Zalo</p>
+        <h1>DỊCH VỤ MẠNG XÃ HỘI</h1>
+        <p class="sub">
+          Giải pháp tăng trưởng kênh & quảng cáo: nội dung, tối ưu profile, seeding đúng tệp, chạy ads và đo lường.
+        </p>
+
+        <div class="hero__cta">
+          <a class="btn btn--primary" href="#dichvu">Xem dịch vụ</a>
+          <button class="btn btn--soft" id="openContactHero" type="button">Nhận tư vấn</button>
+        </div>
+
+        <div class="hero__stats" aria-label="Thống kê">
+          <div class="stat">
+            <div class="stat__num">24/7</div>
+            <div class="stat__label">Hỗ trợ</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">+120</div>
+            <div class="stat__label">Dự án</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">4.9★</div>
+            <div class="stat__label">Đánh giá</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__panel" aria-hidden="true">
+        <div class="panel">
+          <div class="panel__top">
+            <span class="dot dot--r"></span>
+            <span class="dot dot--y"></span>
+            <span class="dot dot--g"></span>
+          </div>
+          <div class="panel__body">
+            <div class="mini-card">
+              <div class="mini-card__icon">📘</div>
+              <div>
+                <div class="mini-card__title">Facebook</div>
+                <div class="mini-card__text">Quản trị fanpage • Ads • Nội dung</div>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-card__icon">🎵</div>
+              <div>
+                <div class="mini-card__title">TikTok</div>
+                <div class="mini-card__text">Kịch bản • Edit • Seeding đúng tệp</div>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-card__icon">▶️</div>
+              <div>
+                <div class="mini-card__title">YouTube</div>
+                <div class="mini-card__text">SEO • Thumbnail • Lịch đăng</div>
+              </div>
+            </div>
+            <div class="mini-card">
+              <div class="mini-card__icon">💬</div>
+              <div>
+                <div class="mini-card__title">Zalo</div>
+                <div class="mini-card__text">OA • Broadcast • Chăm sóc KH</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__glow" aria-hidden="true"></div>
+  </section>
+
+  <!-- Services -->
+  <main class="main">
+    <section class="section" id="dichvu">
+      <div class="container">
+        <div class="section__head">
+          <h2>Dịch vụ nổi bật</h2>
+          <p>Chọn nền tảng bạn muốn phát triển — mỗi gói đều có KPI & báo cáo.</p>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📘</div>
+            <h3>Facebook</h3>
+            <p>Quản trị fanpage, nội dung, quảng cáo chuyển đổi, tối ưu profile & chiến dịch.</p>
+            <div class="card__actions">
+              <button class="btn btn--primary contactBtn" data-service="Facebook" type="button">Liên hệ</button>
+              <button class="btn btn--ghost copyBtn" data-copy="Facebook" type="button">Sao chép</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🎵</div>
+            <h3>TikTok</h3>
+            <p>Kịch bản theo ngành, quay/dựng, lịch đăng, seeding đúng tệp & tối ưu đề xuất.</p>
+            <div class="card__actions">
+              <button class="btn btn--primary contactBtn" data-service="TikTok" type="button">Liên hệ</button>
+              <button class="btn btn--ghost copyBtn" data-copy="TikTok" type="button">Sao chép</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">▶️</div>
+            <h3>YouTube</h3>
+            <p>SEO video, tiêu đề, thumbnail, playlist, tối ưu giờ đăng & giữ chân người xem.</p>
+            <div class="card__actions">
+              <button class="btn btn--primary contactBtn" data-service="YouTube" type="button">Liên hệ</button>
+              <button class="btn btn--ghost copyBtn" data-copy="YouTube" type="button">Sao chép</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">💬</div>
+            <h3>Zalo</h3>
+            <p>Zalo OA, broadcast, chatbot kịch bản, chăm sóc khách hàng & remarketing.</p>
+            <div class="card__actions">
+              <button class="btn btn--primary contactBtn" data-service="Zalo" type="button">Liên hệ</button>
+              <button class="btn btn--ghost copyBtn" data-copy="Zalo" type="button">Sao chép</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section section--alt" id="banggia">
+      <div class="container">
+        <div class="section__head">
+          <h2>Bảng giá tham khảo</h2>
+          <p>Tuỳ ngành & mục tiêu. Bạn có thể chỉnh text/giá theo thực tế.</p>
+        </div>
+
+        <div class="pricing">
+          <article class="price">
+            <h3>Starter</h3>
+            <div class="price__money">1.5tr<span>/tháng</span></div>
+            <ul class="list">
+              <li>8–12 bài/tháng</li>
+              <li>Tối ưu bio + cover</li>
+              <li>Báo cáo cơ bản</li>
+            </ul>
+            <button class="btn btn--soft contactBtn" data-service="Gói Starter" type="button">Nhận tư vấn</button>
+          </article>
+
+          <article class="price price--hot">
+            <div class="ribbon">Phổ biến</div>
+            <h3>Growth</h3>
+            <div class="price__money">3.9tr<span>/tháng</span></div>
+            <ul class="list">
+              <li>16–20 bài/tháng</li>
+              <li>2–4 video ngắn</li>
+              <li>Seeding đúng tệp</li>
+              <li>Báo cáo KPI</li>
+            </ul>
+            <button class="btn btn--primary contactBtn" data-service="Gói Growth" type="button">Nhận tư vấn</button>
+          </article>
+
+          <article class="price">
+            <h3>Pro</h3>
+            <div class="price__money">7.9tr<span>/tháng</span></div>
+            <ul class="list">
+              <li>30+ bài/tháng</li>
+              <li>8–12 video</li>
+              <li>Ads setup + tối ưu</li>
+              <li>Dashboard theo dõi</li>
+            </ul>
+            <button class="btn btn--soft contactBtn" data-service="Gói Pro" type="button">Nhận tư vấn</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section__head">
+          <h2>Câu hỏi thường gặp</h2>
+          <p>Nhấn để mở/đóng.</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>Mất bao lâu để thấy hiệu quả?</summary>
+            <p>Tuỳ kênh & ngành. Thường 2–4 tuần để ổn định nội dung & bắt đầu tăng trưởng đều.</p>
+          </details>
+          <details>
+            <summary>Có hỗ trợ chạy quảng cáo không?</summary>
+            <p>Có. Bạn cung cấp mục tiêu (tin nhắn, đơn hàng, lead). Mình setup, tối ưu và báo cáo.</p>
+          </details>
+          <details>
+            <summary>Có hợp đồng/hoá đơn?</summary>
+            <p>Tuỳ bạn. Có thể làm theo dạng hợp đồng dịch vụ + nghiệm thu theo KPI.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">SocialBoost</div>
+        <div class="footer__text">© <span id="year"></span> — All rights reserved.</div>
+      </div>
+      <div class="footer__links">
+        <a href="#dichvu">Dịch vụ</a>
+        <a href="#banggia">Bảng giá</a>
+        <a href="#faq">FAQ</a>
+        <button class="btn btn--ghost" id="openContactFooter" type="button">Liên hệ</button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile nav -->
+  <div class="sheet" id="mobileNav" aria-hidden="true">
+    <div class="sheet__backdrop" data-close="sheet"></div>
+    <div class="sheet__panel" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="sheet__head">
+        <div class="brand brand--small">
+          <span class="brand__logo" aria-hidden="true">⬤</span>
+          <span class="brand__name">SocialBoost</span>
+        </div>
+        <button class="iconbtn iconbtn--x" data-close="sheet" aria-label="Đóng menu" type="button">✕</button>
+      </div>
+      <div class="sheet__body">
+        <a class="sheet__link" href="#dichvu" data-close="sheet">Dịch vụ</a>
+        <a class="sheet__link" href="#banggia" data-close="sheet">Bảng giá</a>
+        <a class="sheet__link" href="#faq" data-close="sheet">FAQ</a>
+        <button class="btn btn--primary" id="openContactMobile" type="button">Liên hệ</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact modal -->
+  <div class="modal" id="contactModal" aria-hidden="true">
+    <div class="modal__backdrop" data-close="modal"></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-label="Liên hệ">
+      <div class="modal__head">
+        <h3>Liên hệ nhanh</h3>
+        <button class="iconbtn iconbtn--x" data-close="modal" aria-label="Đóng" type="button">✕</button>
+      </div>
+
+      <form class="form" id="contactForm">
+        <div class="form__row">
+          <label>
+            Dịch vụ quan tâm
+            <input id="serviceInput" name="service" placeholder="VD: TikTok / Facebook..." />
+          </label>
+        </div>
+
+        <div class="form__row form__grid">
+          <label>
+            Tên của bạn
+            <input name="name" placeholder="Nguyễn Văn A" required />
+          </label>
+          <label>
+            SĐT / Zalo
+            <input name="phone" placeholder="09xx..." required />
+          </label>
+        </div>
+
+        <label>
+          Mô tả nhu cầu
+          <textarea name="message" rows="4" placeholder="Mục tiêu, ngành, ngân sách, thời gian..."></textarea>
+        </label>
+
+        <div class="form__actions">
+          <button class="btn btn--primary" type="submit">Tạo tin nhắn</button>
+          <button class="btn btn--ghost" type="button" data-close="modal">Đóng</button>
+        </div>
+
+        <p class="form__hint">
+          Nút “Tạo tin nhắn” sẽ tạo nội dung và copy vào clipboard để bạn dán qua Zalo/Messenger.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
